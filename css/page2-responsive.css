@@ -1,0 +1,197 @@
+@media all and (max-width:1250px){
+
+.oboo
+{
+	margin: 0 120px;
+}
+
+
+
+}
+
+@media all and (max-width:980px){
+
+	.oboo
+	{
+		margin: 0 160px;
+	}
+
+	.nav1, .nav2
+	{
+		flex-direction: column;
+		line-height: 30px;
+	}
+
+	.buyContainer
+	{
+		flex-wrap: wrap;
+	}
+
+	.sliderContainer{
+		width:100%;
+	}
+
+	.carousel-cell
+	{
+		height: auto;
+	  	width: 100%; /* full width */
+	}
+
+	.carousel-cell .robe{
+		height: auto;
+		width: 100%;
+	}
+
+	.descContainer{
+		width: 100%;
+	}
+
+	.reseauxContainer{
+		position: static;
+		margin-top: 50px;
+	}
+
+	.carrecontent {
+		width : calc((100% / 2) - (30px * 1 / 2));
+		margin-right:30px;
+	}
+
+	.carrecontent:nth-of-type(3n+3) {
+	    margin-right: 30px;
+	}
+
+	.carrecontent:nth-of-type(2n+2){
+		margin-right:0;
+	}
+
+}
+
+@media all and (max-width:767px){
+
+	.wrap
+	{
+		padding:0 30px;
+	}
+
+	.oboo
+	{
+		margin: 0 150px;
+	}
+
+	.enteteheader
+	{
+		position: relative;
+	}
+
+	.menuwrap
+	{
+		display: block;
+		position: absolute;
+		right: 0;
+	}
+
+	.nav1, .nav2
+	{
+		display: none;
+	}
+
+	.reseauxContainer{
+		position: static;
+		margin-top: 50px;
+	}
+
+	.section2 h2{
+		font-size: 40px;
+	}
+
+	.section2 .p1{
+		width: 100%;
+	}
+
+}
+
+@media all and (max-width:460px){
+
+	.wrap{
+		padding: 0 20px;
+	}
+
+	.oboo
+	{
+		margin: 0 150px;
+	}
+
+	.enteteheader
+	{
+		position: relative;
+	}
+
+	.menuwrap
+	{
+		display: block;
+		position: absolute;
+		right: 0;
+	}
+
+	.nav1, .nav2
+	{
+		display: none;
+	}
+
+	.reseauxContainer{
+		position: static;
+		margin-top: 50px;
+	}
+
+	.mainContainer{
+		width: 100%;
+	}
+
+	.mainContainer p{
+		font-size: 15px;
+	}
+
+	.section2 .p1{
+		font-size: 15px;
+	}
+
+	.colorsSizeContainer
+	{
+	  flex-direction: column;
+	}
+
+	.sizeContainer{
+		margin-bottom: 48px;
+	}
+
+	.priceOrderContainer{
+		flex-direction: column;
+	}
+
+	.priceContent, .priceOrderContainer a
+	{
+	  width:100%;
+	}
+
+	.play{
+		width: 100px;
+	}
+
+	.next img{
+		width:30px;
+	}
+
+	.previous img{
+		width:30px;
+	}
+
+	.carrecontent{
+		width : 100%;
+		margin-right:0;
+	}
+
+	.carrecontent:nth-of-type(3n+3){
+		margin-right:0;
+	}
+
+}

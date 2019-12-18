@@ -1,0 +1,273 @@
+.section2
+{
+	background-color: #f8f9f9;
+  padding-bottom: 122px;
+}
+
+.section2 h2
+{
+	font-size: 50px;
+	margin-top: 40px;
+	margin-bottom: 45px;
+	color: #363636;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+  text-align: center;
+}
+
+.section2 p
+{
+	font-family: 'Roboto', sans-serif;
+	color: #a6a6a6;
+	line-height: 25px;
+}
+
+.section2 .p1
+{
+	width: 60%;
+	text-align: center;
+	margin-bottom: 120px;
+	font-size: 17px;
+}
+
+.carousel-cell
+{
+	position: relative;
+}
+
+.play
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.buyContainer
+{
+	width: 100%;
+}
+
+.sliderContainer
+{
+	width:50%;
+	position: relative;	
+}
+
+.next
+{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+  right:19px;
+}
+
+.previous
+{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+  left:19px;
+}
+
+.flickity-enabled {
+  position: relative;
+  height: 100%;
+}
+
+.flickity-viewport {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.flickity-prev-next-button.next {
+background-image: url("../images/ArrowRight.svg");
+background-repeat: no-repeat;
+background-position: center; 
+}
+
+.flickity-prev-next-button.previous {
+background-image: url("../images/ArrowLeft.svg");
+background-repeat: no-repeat;
+background-position: center; 
+}
+
+.flickity-prev-next-button.next svg{
+	display:none;
+}
+
+.flickity-prev-next-button.previous svg{
+	display:none;
+}
+
+
+.carousel-cell
+{
+  height:100%;
+  width: 100%; /* full width */
+}
+
+.carousel-cell .robe
+{
+	display:block;
+	height:100%;
+	width:auto;
+}
+
+.buyContainer
+{
+	background-color: #FFF;
+	/*display: flex;*/
+  display:flex;
+}
+
+.descContainer
+{
+	width: 50%;
+  height: 100%;
+}
+
+.descContent
+{
+  margin: 0 30px;
+}
+
+.descContent p 
+{
+  font-size: 15px;
+}
+
+.lignegrise
+{
+  display: block;
+  background-color: #eeeeee;
+  height: 2px;
+  margin-top: 41px;
+  margin-bottom: 55px;
+}
+
+.colorsSizeContainer
+{
+  display: flex;
+}
+
+.descContent h6
+{
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.color
+{
+  display: block;
+  width:20px;
+  height: 20px;
+}
+
+.color:hover, .color.active
+{
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+.yellow
+{
+  background-color: #f7ca6a;
+}
+
+.blue
+{
+  background-color: #c9f9f3;
+}
+
+.pink
+{
+  background-color: #f9c9f1;
+}
+
+.orange
+{
+  background-color: #fec5b4;
+}
+
+.colorsContent
+{
+  display: flex;
+  margin: 0 70px 48px 0;
+}
+
+.boxMargin
+{
+  margin-right: 12px;
+}
+
+.sizeContent span
+{
+  color: #c6c6c6;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+.sizeContent span:hover, .sizeContent span.active
+{
+  color: #000;
+}
+
+
+.QuantityContent span
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  margin: 0 13px;
+}
+
+.QuantityContent
+{
+  display: flex;
+  align-items: center;
+}
+
+.lignegrise1
+{
+  margin-top: 70px;
+  display: block;
+  background-color: #eeeeee;
+  height: 2px;
+}
+
+.priceOrderContainer
+{
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.priceContent, .priceOrderContainer a
+{
+  width:50%;
+  text-align: center;
+}
+
+.priceContent
+{
+  font-size: 30px;
+  padding: 30px 0;
+}
+
+.priceOrderContainer a
+{
+  font-size: 24px;
+  background-color: #363636;
+  color: #FFF;
+  padding: 33px 0;
+  text-decoration: none;
+}
